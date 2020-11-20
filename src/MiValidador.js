@@ -9,7 +9,7 @@ export default function MiValidador(params) {
     
 
     const change = (e)=>{
-        setRutIngresado(e.target.value)
+        setRutIngresado(e.target.value);
     }
     const onChangePassword = (e)=>{
         setClave(e.target.value);
