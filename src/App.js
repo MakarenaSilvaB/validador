@@ -8,7 +8,7 @@ import MiValidador from './MiValidador';
 
 function App() {
   return (
-    <div className="App">Validador Maka's Version
+    <div className="App" style="background-color: #283050;">Validador Maka's Version
       <header className="App-header">
         <p>Ingrese su rut</p>
         <MiValidador  valor = "123344" />

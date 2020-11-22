@@ -1,7 +1,7 @@
 FROM node:buster
 
 COPY . app
-WORKDIR app
+WORKDIR /app
 RUN npm install > /dev/null
 
 EXPOSE 3000

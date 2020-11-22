@@ -20,7 +20,7 @@ export default function MiValidador(params) {
      return  (<div>
         <input type="text" value={rutIngresado} onChange={change}  />
        { validate(rutIngresado) && 
-           <input type="password" className='new-line'  value={clave} onChange={onChangePassword}  />
+           <input type="password" className="new-line" value={clave} onChange={onChangePassword}  />
            
        }
        </div>)
