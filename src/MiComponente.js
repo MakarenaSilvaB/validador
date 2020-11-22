@@ -7,7 +7,7 @@ class MiComponente extends Component  {
     return (
      <div>
         <p>hello world 2 mtf {this.props.mensaje}</p>
-        <input type="button" value="presione aqui"  />
+        <input type="button" value="presione aqui"> </input>
 
      </div>
     );
