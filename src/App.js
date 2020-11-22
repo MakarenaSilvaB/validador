@@ -8,9 +8,9 @@ import MiValidador from './MiValidador';
 
 function App() {
   return (
-    <div className="App">V2.0 Mi validador
+    <div className="App" style="background-color: #283050;">Validador Maka's Version
       <header className="App-header">
-        <p>Clave uvalpo</p>
+        <p>Ingrese su rut</p>
         <MiValidador  valor = "123344" />
       </header>
     </div>

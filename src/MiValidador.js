@@ -15,7 +15,7 @@ export default function MiValidador(params) {
         setClave(e.target.value);
     }
 
-     if(clave === "uvalpo") return <p>Maravilloso</p>
+     if(clave === "uvalpo") return <p>¡Bien hecho!</p>
 
      return  (<div>
         <input type="text" value={rutIngresado} onChange={change}  />
