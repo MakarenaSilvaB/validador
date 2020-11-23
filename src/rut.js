@@ -1,4 +1,3 @@
-'use strict'
 
 function clean (rut) {
   return typeof rut === 'string'

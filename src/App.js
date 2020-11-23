@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import MiValidador from './MiValidador';
 import imagen from './index.png';
