@@ -1,22 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-import {Button} from "@material-ui/core"
-import MiComponente from './MiComponente';
 import MiValidador from './MiValidador';
+import imagen from './index.png';
+import Footer from './footer'
+
 
 function App() {
   return (
-    <div className="App" style="background-color: #283050;">Validador Maka's Version
+    <div className="App">Validat-E™ V2.0
       <header className="App-header">
+        <img src={imagen} alt="pic"/>
         <p>Ingrese su rut</p>
-        <MiValidador  valor = "123344" />
+        <MiValidador  placeholder="XXXXXXXX-X" />
       </header>
+      <Footer/>
     </div>
   );
 }
-
 
 
 export default App;
